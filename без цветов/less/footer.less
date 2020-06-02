@@ -1,0 +1,75 @@
+.main-footer {
+    display: flex;
+    background-color: @colorProductTxt;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    width: 310px;
+    padding: 110px 0 115px 65px;
+    &-name {
+      text-transform: uppercase;
+      font-size: 20px;
+      color: @colorTxt;
+      .font-main;
+    }
+    &-txt {
+      line-height: 20px;
+      text-transform: uppercase;
+      font-size: 10px;
+      color: @colorTxt;
+      .font-main;
+      margin: 0;
+      text-align: justify;
+      padding-top: 20px;
+    }
+  }
+  
+  .footer-right {
+    padding: 154px 65px 154px 0;
+  }
+  
+  .footer-menu {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  
+  .footer-menu li {
+    display: inline;
+  }
+  
+  .footer-menu-link {
+    text-transform: uppercase;
+    line-height: 28px;
+    font-size: 14px;
+    color: @colorTxt;
+    padding-left: 15px;
+    position: relative;
+    .font-main;
+  }
+  
+  .footer-menu-link:hover {
+    opacity: 0.8;
+  }
+  
+  .footer-menu-link:active {
+    opacity: 0.6;
+  }
+  
+  .slash:after {
+    content: "|";
+    position: absolute;
+    color: #7d7560;
+    right: -11px;
+    top: -5px;
+  }
+  
+  .footer-right-txt {
+    color: @colorTxt;
+    text-align: right;
+    .font-main;
+    font-size: 18px;
+    margin: 0;
+  }
+  

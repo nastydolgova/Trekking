@@ -1,0 +1,423 @@
+.cart-block {
+  position: absolute;
+  width: 300px;
+  min-height: 30px;
+  top: 80px;
+  right: 0px;
+  background-color: #535253;
+  padding-top: 10px;
+}
+.cart-item-name,
+.cart-item-quantity,
+.cart-item-price {
+  font-family: "Quicksand";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.quantity-div,
+.price-div,
+.vsegggo {
+  display: inline-block;
+  font-family: "Quicksand";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.vsegggo {
+  padding-right: 20px;
+}
+.cart-items {
+  background-color: #3b3b3b;
+  width: 300px;
+}
+.cart-item {
+  width: 100%;
+  margin: 5px;
+}
+.cart-item-name {
+  width: 45%;
+  display: inline-block;
+}
+.cart-item-quantity,
+.cart-item-price {
+  width: 20%;
+  display: inline-block;
+}
+.cart-item-btn {
+  width: 20px;
+  height: 20px;
+  background-color: #f5f6f7;
+  border: none;
+  outline: none;
+}
+.main-footer {
+  display: flex;
+  background-color: #424242;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 310px;
+  padding: 110px 0 115px 65px;
+}
+.footer-left-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.footer-left-txt {
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: "Quicksand";
+  font-weight: 400;
+  margin: 0;
+  text-align: justify;
+  padding-top: 20px;
+}
+.footer-right {
+  padding: 154px 65px 154px 0;
+}
+.footer-menu {
+  margin: 0;
+  padding-bottom: 5px;
+}
+.footer-menu li {
+  display: inline;
+}
+.footer-menu-link {
+  text-transform: uppercase;
+  line-height: 28px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-left: 15px;
+  position: relative;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.footer-menu-link:hover {
+  opacity: 0.8;
+}
+.footer-menu-link:active {
+  opacity: 0.6;
+}
+.slash:after {
+  content: "|";
+  position: absolute;
+  color: #7d7560;
+  right: -11px;
+  top: -5px;
+}
+.footer-right-txt {
+  color: #ffffff;
+  text-align: right;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+.products-item {
+  width: 320px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: #f5f6f7;
+  position: relative;
+  margin-bottom: 40px;
+}
+.products-item-img {
+  align-self: center;
+}
+.products-item-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-item:hover {
+  outline: 6px solid #aa9b77;
+  border-radius: 3px;
+}
+.products-item:hover .product-item-btn {
+  display: block;
+}
+.select-size {
+  border: none;
+  background-color: inherit;
+  font-family: "Quicksand";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #424242;
+}
+.item-name {
+  text-transform: uppercase;
+  color: #aa9b77;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.item-price {
+  margin: 0;
+  color: #424242;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.product-item-btn {
+  width: 204px;
+  height: 52px;
+  border-radius: 3px;
+  background-color: #aa9b77;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Quicksand";
+  font-weight: 400;
+  position: absolute;
+  top: 180px;
+  left: 55px;
+  display: none;
+}
+.product-item-btn:hover {
+  opacity: 0.8;
+}
+.product-item-btn:active {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  opacity: 1;
+}
+.font-main {
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.active-btn {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  opacity: 1;
+}
+.main-header {
+  display: flex;
+  background-color: #535253;
+  padding: 20px 65px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-link:hover .logo-link-img {
+  transform: scale(1.1);
+}
+.logo-link:active .logo-link-img {
+  opacity: 0.5;
+}
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu-item {
+  color: #ffffff;
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.menu-item:hover {
+  opacity: 0.8;
+}
+.menu-item:active {
+  opacity: 0.5;
+}
+.menu-item:last-child {
+  padding-right: 0px;
+  width: 25px;
+  height: 23px;
+  background-image: url(/img/fa-shopping-cart.png);
+  background-repeat: no-repeat;
+  background-position: 20px 2px;
+}
+.first {
+  background-image: url(/img/Livello_1.png);
+  background-repeat: no-repeat;
+  width: 1280px;
+  padding: 230px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 0;
+}
+.first-title {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Quicksand";
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.first-txt {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+  width: 542px;
+  display: inline-block;
+  font-family: "Quicksand";
+  font-weight: 300;
+  padding-bottom: 275px;
+  text-align: center;
+}
+.first-arrow {
+  display: block;
+  width: 34px;
+  height: 22px;
+  background-image: url(/img/fa-chevron-down.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
+}
+.first-arrow:hover {
+  opacity: 0.8;
+}
+.first-arrow:active {
+  opacity: 0.5;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+.products-filters {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f6f7;
+  padding: 45px 95px;
+}
+.products-filters-btn {
+  width: 204px;
+  height: 52px;
+  border-radius: 3px;
+  background-color: #aa9b77;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.products-checkbox {
+  display: none;
+}
+.products-checkbox-label {
+  position: relative;
+  padding-left: 40px;
+  text-transform: uppercase;
+  padding-right: 40px;
+  font-family: "Quicksand";
+  font-weight: 400;
+  cursor: pointer;
+}
+.products-filters-btn:hover {
+  opacity: 0.8;
+}
+.products-filters-btn:active {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  opacity: 1;
+}
+.filters-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.products-checkbox-label:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  background-image: url(/img/Rettangolo_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.products-checkbox:checked + .products-checkbox-label:before {
+  background-image: url(/img/fa-check.png), url(/img/Rettangolo_2.png);
+  background-position: center;
+}
+.products-sex {
+  padding: 50px 100px 0 100px;
+  background-image: url(/img/Forma_1.png);
+  background-repeat: no-repeat;
+  background-position: 187px 59px;
+}
+.products-sex-page {
+  text-transform: uppercase;
+  color: #424242;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 50px;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.men-items,
+.women-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.description {
+  padding-top: 70px;
+  text-align: center;
+  background-color: #aa9b77;
+  background-image: url(/img/5-layers.png);
+  background-repeat: no-repeat;
+  background-position: 280px 80px;
+}
+.about-us {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #837659;
+  margin: 0;
+  padding-bottom: 80px;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+.about-us-txt {
+  width: 470px;
+  display: inline-block;
+  line-height: 24px;
+  color: #424242;
+  font-size: 16px;
+  padding-bottom: 150px;
+  margin: 0;
+  font-family: "Quicksand";
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
